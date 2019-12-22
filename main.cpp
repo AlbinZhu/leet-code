@@ -7,13 +7,15 @@
 #include <iostream>
 #include "two_sum.cpp"
 #include "add_two_numblers.cpp"
+#include "longest_substring.cpp"
 
 using namespace std;
+
 int main() {
     cout << "Hello World!" << endl;
 
-    Solution solution;
-    solution.test();
+//    Solution solution;
+//    solution.test();
 
     // TODO: code here.
 
@@ -24,7 +26,6 @@ int main() {
 //    int *indices = twoSum(nums, numSize, target);
 //    cout << indices << endl;
 
-
-
+    lengthOfLongestSubstring("qweqweqweqweqweqwe");
     return 0;
 }
