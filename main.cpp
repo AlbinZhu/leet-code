@@ -6,8 +6,10 @@
 
 #include <iostream>
 #include "two_sum.cpp"
-#include "add_two_numblers.cpp"
-#include "longest_substring.cpp"
+//#include "add_two_numblers.cpp"
+//#include "longest_substring.cpp"
+
+#include "median_of_two_sorted_array.cpp"
 
 using namespace std;
 
@@ -26,6 +28,10 @@ int main() {
 //    int *indices = twoSum(nums, numSize, target);
 //    cout << indices << endl;
 
-    lengthOfLongestSubstring("qweqweqweqweqweqwe");
+
+    Solution solution;
+
+    solution.medianTest();
+
     return 0;
 }
